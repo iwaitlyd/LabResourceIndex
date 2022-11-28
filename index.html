@@ -25,19 +25,10 @@ body {
 <h1>Lab Resource Index</h1>
 <ul>
 <li><a onclick="window.open(`/ssp`)" title="Change Password"><img src="key.png" border="0" width="99px" height="88px"/></a><br>Change Password</li>
-<li><a onclick="window.open(`https://1.15.177.15:4433/`)" title="SSH Client"><img src="linux.png" border="0" width="99px" height="88px"/></a><br>SSH Client</li>
+<li><a onclick="window.open(`https://${window.location.hostname}:4433/`)" title="SSH Client"><img src="linux.png" border="0" width="99px" height="88px"/></a><br>SSH Client</li>
 <li><a onclick="window.open(`http://${window.location.hostname}:8787/`)" title="R-server"><img src="r.png" border="0" width="99px" height="88px"/></a><br>R-server</li>
 <li><a onclick="window.open(`http://${window.location.hostname}:8080/`)" title="galaxy"><img src="galaxy.png" border="0" width="99px" height="88px"/></a><br>Galaxy</li>
-<li><a onclick="window.open(`http://${window.location.hostname}:8787/`)" title="File Storage"><img src="storage.png" border="0" width="99px" height="88px"/></a><br>File Storage</li>
-<li><a href="rdp://full%20address=s:192.168.2.34" title="Windows"><img src="win.png" border="0" width="99px" height="88px"/></a><br>Windows</l>
-<li><a href="#" onclick="window.open(`${window.location.hostname}:8080`" title="Python语言IDE"><img src="2.png" border="0" width="99px" height="88px"/></a><br><h5>计算节点</h5></li>
-<li><a href="http://10.50.9.53:38000/" title="JupyterNoteBook"><img src="2.png" border="0" width="99px" height="88px"/></a><br><h5>新GPU节点</h5></li>
-<li><a href="http://10.50.9.53:8787/" title="R语言IDE"><strong><img src="3.png" border="0" width="99px" height="88px"/></strong></a><br><h5>计算节点</h5></li>
-<li><a href="http://10.50.9.53:28787/" title="R语言IDE"><strong><img src="3.png" border="0" width="99px" height="88px"/></strong></a><br><h5>原GPU节点</h5></li>
-<li><a href="http://10.50.9.53:38787/" title="R语言IDE"><strong><img src="3.png" border="0" width="99px" height="88px"/></strong></a><br><h5>新GPU节点</h5></li>
-<li><a href="https://10.50.9.53:4433/?hostname=10.50.9.53&username=username&port=122" title="Linux终端"><img src="4.png" border="0" width="99px" height="88px"/></a><br><h5>Linux终端<sup>1</sup></h5></li>
-<li><a href="http://10.50.9.53:80/igv/" title="Genome Browser"><img src="/igv/img/igv-logo-cooked-198x198.png" border="0" width="99px" height="88px"/></a><br><h5>Genome Browser</h5></li>
-<li><a href="http://172.21.0.1/ssp" title="Change Password"><img src="key.png" border="0" width="99px" height="88px"/></a><br>Change Password</li>
+<li><a href="rdp://full%20address=s:${window.location.hostname}" title="Windows"><img src="win.png" border="0" width="99px" height="88px"/></a><br>Windows</l>
 </ul>
 </body>
 </html>
